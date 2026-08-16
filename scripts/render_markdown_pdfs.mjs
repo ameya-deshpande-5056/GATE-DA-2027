@@ -113,7 +113,10 @@ async function renderDocument(page, filePath) {
 
   const renderingErrors = await page.locator("#preview .mermaid.error").count();
   if (renderingErrors > 0) {
-    throw new Error(filePath + " contains " + renderingErrors + " Mermaid rendering error(s)");
+    const details = await page.locator("#preview .mermaid.error").evaluateAll((elements) =>
+      elements.map((element, index) => "Diagram " + (index + 1) + ": " + element.textContent.trim())
+    );
+    throw new Error(filePath + " contains " + renderingErrors + " Mermaid rendering error(s):\n" + details.join("\n"));
   }
 
   await page.emulateMedia({ media: "print" });

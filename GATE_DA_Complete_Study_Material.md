@@ -473,12 +473,12 @@ For a joint-probability table \(P(X=x,Y=y)\):
 
 ~~~mermaid
 flowchart LR
-    J[Joint distribution P(X,Y)] --> SX[Sum over Y]
-    J --> SY[Sum over X]
-    J --> C[Divide joint by marginal]
-    SX --> MX[Marginal P(X)]
-    SY --> MY[Marginal P(Y)]
-    C --> CP[Conditional P(X|Y)]
+    J["Joint distribution P(X,Y)"] --> SX["Sum over Y"]
+    J --> SY["Sum over X"]
+    J --> C["Divide joint by marginal"]
+    SX --> MX["Marginal P(X)"]
+    SY --> MY["Marginal P(Y)"]
+    C --> CP["Conditional P(X|Y)"]
 ~~~
 
 ### Bayes theorem
