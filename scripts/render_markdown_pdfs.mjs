@@ -87,8 +87,19 @@ function containsMath(markdown) {
   return /(?:\\\[|\\\(|\$\$|(^|[^\\])\$[^\n$]+\$)/m.test(markdown);
 }
 
+function normalizeMathDelimiters(markdown) {
+  const parts = markdown.split(/(\x60{3}[\s\S]*?\x60{3}|~~~[\s\S]*?~~~)/g);
+  return parts.map((part, index) => {
+    if (index % 2 === 1) return part;
+    return part
+      .replace(/\\\[([\s\S]*?)\\\]/g, (_, tex) => "$$\n" + tex.trim() + "\n$$")
+      .replace(/\\\(([\s\S]*?)\\\)/g, (_, tex) => "$" + tex.trim() + "$");
+  }).join("");
+}
+
 async function renderDocument(page, filePath) {
   const markdown = await fs.readFile(filePath, "utf8");
+  const renderMarkdown = normalizeMathDelimiters(markdown);
   const title = titleFrom(markdown, filePath);
   const outputPath = join(outputRoot, outputName(filePath, markdown));
 
@@ -114,7 +125,7 @@ async function renderDocument(page, filePath) {
   await page.locator("#code-wrap").setChecked(true);
   await page.locator("#dark-palette").setChecked(false);
   await page.locator("#doc-title").fill(title);
-  await page.locator("#editor").fill(markdown);
+  await page.locator("#editor").fill(renderMarkdown);
 
   await page.evaluate(async () => {
     if (typeof window.render === "function") await window.render();
