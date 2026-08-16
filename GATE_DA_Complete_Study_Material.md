@@ -50,6 +50,8 @@ Do not call a topic complete until it is at level 3.
 
 ---
 
+<div class="page-break"></div>
+
 # Part I — Master roadmap
 
 ## Recommended 24-week sequence
@@ -109,6 +111,8 @@ There is no honest shortcut or guaranteed score. A serious target standard is:
 Your category, gender, or personal background does not change what must be learned. It may affect admission policy and cut-offs in a particular year, but preparation quality should be based on the most demanding target you want.
 
 ---
+
+<div class="page-break"></div>
 
 # Part II — General Aptitude (GA)
 
@@ -391,6 +395,8 @@ flowchart TD
 ~~~
 
 ---
+
+<div class="page-break"></div>
 
 # Part III — Probability and statistics
 
@@ -702,6 +708,8 @@ Common errors:
 ---
 
 
+<div class="page-break"></div>
+
 # Part IV — Linear algebra
 
 ## 1. Vectors, spaces, and subspaces
@@ -833,6 +841,8 @@ For a matrix question ask:
 
 ---
 
+<div class="page-break"></div>
+
 # Part V — Calculus and optimization
 
 ## 1. Functions, limits, continuity, differentiability
@@ -914,6 +924,8 @@ flowchart TD
 ~~~
 
 ---
+
+<div class="page-break"></div>
 
 # Part VI — Python, data structures, and algorithms
 
@@ -1051,6 +1063,8 @@ d[v]\leftarrow\min(d[v],d[u]+w(u,v)).
 Ask: what is the input size, what must be returned, is the data sorted, can a stack or queue help, can the problem be split, and what are worst-case time and space costs?
 
 ---
+
+<div class="page-break"></div>
 
 # Part VII — Databases and data warehousing
 
@@ -1198,6 +1212,8 @@ flowchart TD
 ~~~
 
 ---
+
+<div class="page-break"></div>
 
 # Part VIII — Machine learning
 
@@ -1432,6 +1448,8 @@ PCA is unsupervised: it maximizes variance, not class separation. A high-varianc
 
 ---
 
+<div class="page-break"></div>
+
 # Part IX — Artificial intelligence
 
 ## 1. Search
@@ -1543,6 +1561,8 @@ As \(N\) grows, the estimate generally becomes more stable; sampling error decre
 
 ---
 
+<div class="page-break"></div>
+
 # Part X — High-yield comparisons
 
 | Confusion | Correct distinction |
@@ -1563,6 +1583,8 @@ As \(N\) grows, the estimate generally becomes more stable; sampling error decre
 | Confidence interval vs parameter probability | repeated-procedure coverage, not a posterior probability by itself |
 
 ---
+
+<div class="page-break"></div>
 
 # Part XI — Revision and practice system
 
@@ -1614,6 +1636,8 @@ Do not start new large chapters. Review:
 Sleep, food, and a calm reading pace are part of performance. A tired brain turns known material into avoidable mistakes.
 
 ---
+
+<div class="page-break"></div>
 
 # Appendix A — Compact formula sheet
 
@@ -1696,6 +1720,8 @@ f_{A^*}(n)=g(n)+h(n)
 
 ---
 
+<div class="page-break"></div>
+
 # Appendix B — Syllabus coverage map
 
 | Supplied syllabus section | Covered in |
@@ -1717,6 +1743,8 @@ If a practice question requires a topic absent from this map, label it enrichmen
 
 
 ---
+
+<div class="page-break"></div>
 
 # Appendix C — Small but important syllabus clarifications
 

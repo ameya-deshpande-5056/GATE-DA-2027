@@ -18,3 +18,7 @@ Recommended order:
 4. Revisit the formula sheet and weak topics on the weekly review day.
 
 The PDFs are treated as the syllabus source. Verify the official GATE brochure for the relevant year for paper pattern, dates, marks, and admission rules.
+
+## PDF releases
+
+The workflow in .github/workflows/release-pdfs.yml checks out the pinned md-latex-mermaid2pdf converter, renders every Markdown file with headless Chromium, and uploads the resulting PDFs to GitHub Releases. Trigger it by pushing a tag such as v1.0.0, or run it manually with a release tag such as pdf-2027-01.

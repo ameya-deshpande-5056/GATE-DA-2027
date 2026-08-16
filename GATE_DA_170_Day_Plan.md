@@ -38,6 +38,8 @@ PMF, PDF, CDF, expectation, variance, covariance, correlation, conditional expec
 
 Deliverable: derive the mean and variance of Bernoulli and binomial; complete one mixed GA test.
 
+<div class="page-break"></div>
+
 ## Phase 2: Probability, statistics, and linear algebra — Days 29–70
 
 ### Week 5: Distributions
@@ -75,6 +77,8 @@ Deliverable: one handwritten page explaining SVD as rotate–stretch–rotate.
 Two days probability revision, two days linear algebra revision, one day GA, one mixed DA test, one error-repair day.
 
 Deliverable: one 3-hour mixed test and a ranked list of the five weakest subtopics.
+
+<div class="page-break"></div>
 
 ## Phase 3: Calculus, algorithms, and databases — Days 71–112
 
@@ -114,6 +118,8 @@ Integrity constraints, functional dependencies, 1NF, 2NF, 3NF, BCNF, file organi
 
 Deliverable: normalize three schemas and draw one star schema.
 
+<div class="page-break"></div>
+
 ## Phase 4: Machine learning — Days 113–140
 
 ### Week 17: Regression
@@ -152,6 +158,8 @@ Centering, covariance matrix, eigenvectors, explained variance, projection, scal
 
 Deliverable: compute PCA for a tiny two-dimensional dataset and explain why PCA is not supervised classification.
 
+<div class="page-break"></div>
+
 ## Phase 5: AI, GA, and exam integration — Days 141–168
 
 ### Week 23: AI
@@ -165,6 +173,8 @@ Deliverable: solve five search traces, five logic questions, and three inference
 Use two days for probability/statistics and linear algebra, two days for calculus/algorithms/databases, two days for ML/AI, and one day for GA. Take two full mixed tests during the week.
 
 Deliverable: complete formula notebook and final error list.
+
+<div class="page-break"></div>
 
 ## Days 169–176: Final consolidation
 

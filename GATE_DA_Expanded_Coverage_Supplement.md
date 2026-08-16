@@ -74,6 +74,8 @@ For a 3D object, preserve a marked face and record its neighboring faces before 
 
 ---
 
+<div class="page-break"></div>
+
 # 2. Probability and statistics: worked foundations
 
 ## Counting model selection
@@ -214,6 +216,8 @@ Type I error means rejecting a true null. Type II error means failing to reject 
 
 ---
 
+<div class="page-break"></div>
+
 # 3. Linear algebra: properties that repeatedly appear
 
 ## Matrix property table
@@ -295,6 +299,8 @@ The best rank-\(r\) approximation keeps the largest \(r\) singular values. This 
 
 ---
 
+<div class="page-break"></div>
+
 # 4. Calculus and optimization: extra exam patterns
 
 ## Limit patterns
@@ -329,6 +335,8 @@ A local maximum beats nearby values. A global maximum beats every value in the d
 If the first omitted term has magnitude approximately \(0.002\), the approximation error is often of that order near the expansion point, but a rigorous bound requires a remainder estimate. The farther \(x\) moves from the expansion point, the more terms may be needed.
 
 ---
+
+<div class="page-break"></div>
 
 # 5. Programming and algorithms: deeper coverage
 
@@ -382,6 +390,8 @@ Nested loops are not automatically \(O(n^2)\); inspect how the inner variable ch
 - In an unweighted graph, BFS gives shortest edge count, not necessarily lowest weighted cost.
 
 ---
+
+<div class="page-break"></div>
 
 # 6. Databases: worked design patterns
 
@@ -472,6 +482,8 @@ Before designing a fact table, state its grain: one row per what? Examples:
 If the grain is unclear, measures may be double-counted. A fact table should keep a consistent grain.
 
 ---
+
+<div class="page-break"></div>
 
 # 7. Machine learning: evaluation and failure modes
 
@@ -569,6 +581,8 @@ subject to \(w^Tw=1\). The constraint prevents an unlimited answer by scaling \(
 
 ---
 
+<div class="page-break"></div>
+
 # 8. AI: search, logic, and inference worked patterns
 
 ## Search comparison
@@ -635,6 +649,8 @@ Rare events can be poorly estimated by naive sampling because most samples miss 
 
 ---
 
+<div class="page-break"></div>
+
 # 9. Final high-coverage checklist
 
 Before declaring the syllabus complete, be able to do all of the following without notes:
@@ -682,4 +698,3 @@ Before declaring the syllabus complete, be able to do all of the following witho
 - perform variable elimination and understand sampling error.
 
 This checklist is the boundary between “I have read the chapter” and “I can use the chapter in an exam.”
-

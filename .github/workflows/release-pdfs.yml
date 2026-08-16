@@ -1,0 +1,77 @@
+name: Render Markdown study material PDFs
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Release tag to create, for example pdf-2027-01"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  render-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repository
+        uses: actions/checkout@v4
+
+      - name: Check out the Markdown LaTeX Mermaid converter
+        uses: actions/checkout@v4
+        with:
+          repository: ameya-deshpande-5056/md-latex-mermaid2pdf
+          ref: 72865a8da1cd8593b714bf3981bf074da3fd5fce
+          path: converter
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Playwright
+        run: npm install --no-save --no-package-lock playwright@1.55.0
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Render every Markdown file to PDF
+        run: node scripts/render_markdown_pdfs.mjs
+
+      - name: Write release notes
+        run: |
+          {
+            echo "# GATE DA study-material PDFs"
+            echo
+            echo "Rendered by the pinned md-latex-mermaid2pdf converter."
+            echo
+            echo "Converter commit: 72865a8da1cd8593b714bf3981bf074da3fd5fce"
+            echo
+            echo "Markdown source commit: ${GITHUB_SHA}"
+          } > dist/release-notes.md
+
+      - name: Upload PDFs as workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: gate-da-study-material-pdfs
+          path: dist/pdfs/*.pdf
+          if-no-files-found: error
+
+      - name: Publish PDFs under GitHub Releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            release_tag="${{ inputs.release_tag }}"
+          else
+            release_tag="$GITHUB_REF_NAME"
+          fi
+          gh release create "$release_tag" \
+            dist/pdfs/*.pdf \
+            --title "GATE DA PDFs — $release_tag" \
+            --notes-file dist/release-notes.md \
+            --target "$GITHUB_SHA"

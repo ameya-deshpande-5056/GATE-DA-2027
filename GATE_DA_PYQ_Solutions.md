@@ -12,6 +12,8 @@ Several supplied key entries appear inconsistent with direct mathematics or with
 
 ---
 
+<div class="page-break"></div>
+
 # 2024 PYQs
 
 ## Answer key
@@ -612,6 +614,8 @@ For \(U=V=W=Z=1\):
 
 ---
 
+<div class="page-break"></div>
+
 # 2025 PYQs
 
 ## Answer key
@@ -1109,6 +1113,8 @@ Because adjacency lists are decreasing, DFS takes the \(+2\) edge whenever possi
 
 ---
 
+<div class="page-break"></div>
+
 # 2026 PYQs
 
 ## Answer key
@@ -1589,6 +1595,8 @@ is the orthogonal projection onto the subspace perpendicular to \(\mathbf1\). It
 \]
 
 ---
+
+<div class="page-break"></div>
 
 # How to practice these PYQs in the 176-day plan
 
