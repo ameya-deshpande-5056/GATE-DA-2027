@@ -83,6 +83,10 @@ function outputName(filePath, markdown) {
   return (base || "document") + ".pdf";
 }
 
+function containsMath(markdown) {
+  return /(?:\\\[|\\\(|\$\$|(^|[^\\])\$[^\n$]+\$)/m.test(markdown);
+}
+
 async function renderDocument(page, filePath) {
   const markdown = await fs.readFile(filePath, "utf8");
   const title = titleFrom(markdown, filePath);
@@ -94,6 +98,16 @@ async function renderDocument(page, filePath) {
   // format panel, which makes selectOption/setChecked wait until timeout.
   await page.emulateMedia({ media: "screen" });
   await page.setViewportSize({ width: 1440, height: 1200 });
+  if (containsMath(markdown)) {
+    // MathJax is loaded by a deferred CDN script. The converter has a readable
+    // fallback when it is unavailable, but that fallback leaves substantial TeX
+    // unrendered. Wait for the real typesetter before the first render.
+    await page.waitForFunction(
+      () => typeof window.MathJax?.typesetPromise === "function",
+      null,
+      { timeout: 60000 }
+    );
+  }
   await page.selectOption("#page-size", "a4");
   await page.selectOption("#page-margin", "16");
   await page.selectOption("#preview-theme", "paper");
@@ -109,6 +123,13 @@ async function renderDocument(page, filePath) {
     const preview = document.querySelector("#preview");
     return preview && preview.textContent.trim().length > 20;
   });
+  if (containsMath(markdown)) {
+    await page.waitForFunction(
+      () => document.querySelectorAll("#preview mjx-container").length > 0,
+      null,
+      { timeout: 30000 }
+    );
+  }
   await page.waitForTimeout(1200);
 
   const renderingErrors = await page.locator("#preview .mermaid.error").count();
