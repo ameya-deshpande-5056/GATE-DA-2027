@@ -89,6 +89,10 @@ async function renderDocument(page, filePath) {
   const outputPath = join(outputRoot, outputName(filePath, markdown));
 
   await page.goto("http://127.0.0.1:" + port + "/index.html", { waitUntil: "networkidle" });
+  // page.pdf() leaves the reused page in print media mode. Reset it before
+  // interacting with the converter controls; its print stylesheet hides the
+  // format panel, which makes selectOption/setChecked wait until timeout.
+  await page.emulateMedia({ media: "screen" });
   await page.setViewportSize({ width: 1440, height: 1200 });
   await page.selectOption("#page-size", "a4");
   await page.selectOption("#page-margin", "16");
