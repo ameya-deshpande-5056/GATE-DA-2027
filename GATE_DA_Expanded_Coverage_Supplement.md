@@ -1,6 +1,8 @@
 # GATE DA Expanded Coverage Supplement
 
-This supplement expands the compressed parts of the main guide. Use it after the first reading of [GATE_DA_Complete_Study_Material.md](GATE_DA_Complete_Study_Material.md). It is deliberately limited to the supplied syllabus and high-value foundations that make those syllabus items easier to solve.
+This is the second definitive, self-contained GATE DA preparation guide in this workspace. It expands every compressed or high-trap area of [GATE_DA_Complete_Study_Material.md](GATE_DA_Complete_Study_Material.md), while staying within the supplied DA and GA syllabi. It includes deeper methods, failure modes, and representative PYQ applications; no external study source is required for syllabus coverage.
+
+Use the main guide for first learning and this supplement for consolidation, edge cases, and exam-pattern practice. The supplied official syllabi remain authoritative if they change.
 
 ---
 
@@ -650,6 +652,122 @@ Rare events can be poorly estimated by naive sampling because most samples miss 
 ---
 
 <div class="page-break"></div>
+
+---
+
+<div class="page-break"></div>
+
+# 10. PYQ examples for complete expanded coverage
+
+Attempt each cited question before opening its detailed solution in [GATE_DA_PYQ_Solutions.md](GATE_DA_PYQ_Solutions.md). These supplied-paper examples attach an exam pattern to every supplement section.
+
+| Supplement coverage | PYQ examples | What the example tests |
+|---|---|---|
+| GA verbal, quantitative, analytical and spatial patterns | 2024 Q1, Q3, Q6, Q9; 2025 Q5, Q9, Q10; 2026 Q3, Q8, Q10 | Contextual language, constrained counting, data interpretation, geometry, and shape transformation. |
+| Counting, probability, distributions, expectation, covariance/correlation and tests | 2024 Q12, Q27, Q56-Q59, Q65; 2025 Q11, Q19-Q21, Q36, Q39-Q40; 2026 Q28, Q34, Q44-Q45, Q53-Q54, Q57, Q63 | Build the event/factorization first; choose CDF subtraction, a distribution property, or the correct statistic. |
+| Linear algebra and calculus | 2024 Q13, Q15, Q35, Q47-Q50, Q60-Q61; 2025 Q12, Q24-Q25, Q28, Q37-Q38, Q49-Q52; 2026 Q21, Q27, Q46, Q52, Q64-Q65 | Use invariants, solution geometry, derivative tests, and eigen/SVD relations. |
+| Python, data structures, algorithms and graphs | 2024 Q14, Q16, Q21, Q28, Q30, Q32, Q39-Q45, Q51-Q52; 2025 Q18, Q27, Q29, Q47, Q58, Q63-Q65; 2026 Q15-Q16, Q25, Q31, Q39-Q41, Q49-Q50, Q58 | Trace exact states and compare algorithm preconditions with the prompt. |
+| Databases, indexing, transformations and warehousing | 2024 Q26, Q31, Q46, Q55; 2025 Q16-Q17, Q33, Q46, Q56-Q57, Q62; 2026 Q17-Q18, Q26, Q32, Q41-Q43, Q51, Q59-Q61 | Apply relational semantics, dependencies, B+ tree capacity, and OLAP aggregation grain. |
+| Regression, classification, validation and neural networks | 2024 Q17-Q18, Q20, Q22, Q33, Q43, Q53, Q62-Q63; 2025 Q22, Q34-Q35, Q42, Q48, Q53, Q55; 2026 Q11, Q23, Q29, Q37, Q47, Q55-Q56 | Recognize losses/assumptions, prevent leakage, and count or differentiate network parameters. |
+| Clustering and PCA | 2024 Q19, Q42; 2025 Q30, Q60; 2026 Q11, Q36 | Compute linkage/assignments from the stated distance and interpret principal directions through variance. |
+| Search, logic and uncertain reasoning | 2024 Q23-Q25, Q29, Q54, Q64; 2025 Q15, Q26, Q43-Q44; 2026 Q13-Q14, Q24, Q30, Q38, Q48, Q57 | Trace search priorities, test logical validity, and use Bayesian-network factorization or Bayes theorem. |
+
+## Direct worked PYQ checkpoints
+
+### General Aptitude - 2024 Q3
+
+The task is to form four-digit multiples of 3 from five supplied digits whose total is \(21\). A number is divisible by 3 exactly when its digit sum is divisible by 3. Omitting one digit leaves a divisible sum only when the omitted digit is \(3\) or \(6\): two valid four-digit sets. Each set has \(4!=24\) arrangements, so the count is
+
+\[
+2\times4!=48.
+\]
+
+### Probability - 2024 Q58
+
+First find the prior probability of \(T\):
+
+\[
+P(T)=1-0.6=0.4.
+\]
+
+Then total probability gives
+
+\[
+P(S)=0.3(0.4)+0.6(0.6)=0.48.
+\]
+
+Therefore
+
+\[
+P(T\mid S)=\frac{P(S\mid T)P(T)}{P(S)}
+=\frac{0.3(0.4)}{0.48}=0.25.
+\]
+
+The trap is reversing the conditional or omitting the total-probability denominator.
+
+### Linear algebra - 2024 Q61
+
+The matrix is \(M=uu^T\), where \(u=(1,2,3,4,5)^T\). It is rank one, so it has one nonzero singular value. Because it is positive semidefinite, that singular value is
+
+\[
+u^Tu=1^2+2^2+3^2+4^2+5^2=55.
+\]
+
+Thus the sum of singular values is \(55\). Do not treat singular values as signed eigenvalues of a general matrix.
+
+### Calculus - 2024 Q60
+
+Near zero,
+
+\[
+\ln(1+x^2)=x^2+o(x^2),
+\qquad
+\ln(\cos x)=-\frac{x^2}{2}+o(x^2).
+\]
+
+Their difference in the numerator is \(x^2/2+o(x^2)\). Dividing by \(x^2\) gives
+
+\[
+\lim_{x\to0}\frac{\ln(1+x^2)+\ln(\cos x)}{x^2}=\frac12.
+\]
+
+The answer is \(0.5\).
+
+### Algorithms - 2025 Q27
+
+Binary search needs sorted data and efficient access to the middle element. In an increasing array, each comparison halves the remaining interval, giving \(O(\log n)\) worst-case time. A linked list is not suitable for this bound because reaching its middle costs linear time. Therefore the correct option is C.
+
+### Databases - 2026 Q59
+
+Every tuple in relation \(X\) satisfies the self-match part of the predicate by matching itself. The remaining condition requires an \(S\) value greater than \(1\) for the same \(P\). \(P_1\) qualifies through \(10\) or \(15\), and \(P_2\) qualifies through \(20\); \(P_3\) has only \(1\), so it fails. Exactly two \(X\) tuples qualify. The answer is \(2\).
+
+### Machine learning - 2026 Q37
+
+Ridge minimizes
+
+\[
+\|y-X\beta\|_2^2+\lambda\|\beta\|_2^2.
+\]
+
+The \(L_2\) term accepts some bias to reduce estimator variance and overfitting. It does not use an \(L_1\) penalty and does not specifically eliminate negative coefficients. Hence option D is correct.
+
+### AI - 2025 Q44
+
+For each frontier node, calculate
+
+\[
+f(n)=g(n)+h(n).
+\]
+
+After every expansion, choose the remaining node with smallest \(f\), not smallest \(h\). Applying this rule to the supplied graph produces the expansion sequence
+
+\[
+S,A,E,B,C,D,G,
+\]
+
+which is option C.
+
+---
 
 # 9. Final high-coverage checklist
 

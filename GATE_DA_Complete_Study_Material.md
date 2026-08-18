@@ -2,9 +2,9 @@
 
 ## Data Science and Artificial Intelligence + General Aptitude
 
-This guide is written for a beginner who wants to build understanding from the ground up and then reach examination level. It follows the topics in the supplied DA_GATE2027_Syllabus.pdf and GA_GATE2027_Syllabus.pdf.
+This is the primary, self-contained GATE DA preparation guide in this workspace. Together with the [expanded coverage supplement](GATE_DA_Expanded_Coverage_Supplement.md), it covers every topic in the supplied DA and GA syllabi, including definitions, methods, formulas, recognition cues, common traps, and representative PYQ practice.
 
-For deeper worked patterns, evaluation metrics, database design examples, and additional exam traps, use the companion [expanded coverage supplement](GATE_DA_Expanded_Coverage_Supplement.md).
+Use this book for first learning and revision. The supplement is for deeper patterns and edge cases; the [PYQ solutions volume](GATE_DA_PYQ_Solutions.md) is validation and timed practice, not a missing prerequisite for syllabus coverage.
 
 The supplied 2024–2026 papers and answer keys are solved in the companion [PYQ solutions volume](GATE_DA_PYQ_Solutions.md).
 
@@ -1772,6 +1772,32 @@ meaning “the set of tuples \(t\) for which predicate \(P(t)\) is true.” It i
 ## Principal component analysis wording
 
 PCA means **principal component analysis**. The first principal component is the direction of maximum variance; later components are orthogonal to earlier ones and maximize the remaining variance.
+
+---
+
+<div class="page-break"></div>
+
+# Appendix D - Syllabus-to-PYQ practice map
+
+Attempt each cited question before opening its detailed solution in [GATE_DA_PYQ_Solutions.md](GATE_DA_PYQ_Solutions.md). These supplied-paper examples attach an exam pattern to every syllabus area.
+
+| Syllabus coverage | Representative PYQ examples | Exam trigger |
+|---|---|---|
+| GA verbal, quantitative, analytical and spatial aptitude | 2024 Q1, Q3, Q6, Q9; 2025 Q5, Q9, Q10; 2026 Q3, Q8, Q10 | Use contextual grammar/inference, define constraints, or preserve a marked feature through a transformation. |
+| Counting; axioms; events; marginal, joint and conditional probability; Bayes | 2024 Q12, Q58; 2025 Q31; 2026 Q19, Q57 | Write the sample space or full Bayes denominator; 2026 Q57 is about 0.76-0.78. |
+| Expectation, variance, descriptive statistics, covariance/correlation | 2025 Q11; 2024 Q27, Q59, Q65; 2026 Q44, Q63 | Use conditional averaging and centered quantities. |
+| Random variables, PMF/PDF/CDF, distributions, CLT and tests | 2024 Q56-Q57; 2025 Q19-Q21, Q36, Q39-Q40, Q54; 2026 Q28, Q34, Q45, Q53-Q54 | Use CDF subtraction, distribution assumptions, and the correct test statistic. |
+| Vector spaces, systems, elimination, rank, nullity | 2024 Q47-Q48; 2025 Q12, Q25, Q28, Q38 | Row reduction determines solution geometry; rank-nullity uses columns. |
+| Matrix classes, quadratic forms, determinants, eigenvalues, projections, LU and SVD | 2024 Q13, Q35, Q49, Q61; 2025 Q37, Q50-Q52; 2026 Q21, Q46, Q52, Q64-Q65 | Check invariants algebraically; SVD singular values are nonnegative. |
+| Functions, limits, continuity, differentiability, Taylor, maxima and minima | 2024 Q15, Q37, Q50, Q60; 2025 Q14, Q24, Q32, Q49, Q51; 2026 Q27 | Test stationary points and endpoints; differentiability implies continuity. |
+| Python, structures, search, sorting, divide-and-conquer, graphs and shortest paths | 2024 Q14, Q16, Q21, Q28, Q30, Q32, Q39-Q45, Q51-Q52; 2025 Q18, Q27, Q29, Q47, Q58, Q63-Q65; 2026 Q15-Q16, Q25, Q31, Q39-Q41, Q49-Q50, Q58 | Trace exact states; verify each algorithm's preconditions. |
+| ER, relational algebra, tuple calculus, SQL, constraints, normal forms, file organization and indexing | 2024 Q26, Q31, Q46, Q55; 2025 Q16-Q17, Q33, Q56-Q57, Q62; 2026 Q17, Q26, Q32, Q41-Q42, Q51, Q59-Q61 | State keys/dependencies; track relation semantics and B+ tree capacity. |
+| Data transformation and warehousing: schemas, hierarchies, measures | 2025 Q46; 2026 Q18, Q43 | Define grain before aggregating; roll-up/drill-down changes level. |
+| Supervised ML, bias-variance, cross-validation, MLP/feed-forward networks | 2024 Q17-Q18, Q20, Q22, Q33, Q43, Q53, Q62-Q63; 2025 Q22, Q34-Q35, Q42, Q48, Q53, Q55; 2026 Q11, Q23, Q29, Q37, Q47, Q55-Q56 | Match model to loss/assumptions; fit preprocessing within training folds. |
+| Clustering and PCA | 2024 Q19, Q42; 2025 Q30, Q60; 2026 Q11, Q36 | Recompute the given linkage or assignment; center before PCA. |
+| AI search, logic, and uncertain reasoning | 2024 Q23-Q25, Q29, Q54, Q64; 2025 Q15, Q26, Q43-Q44; 2026 Q13-Q14, Q24, Q30, Q38, Q48 | Compare A* by \(g+h\), test logic with a countermodel, and factorize the Bayesian network. |
+
+---
 
 ## Linkage wording
 
