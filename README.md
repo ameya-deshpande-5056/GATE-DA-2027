@@ -2,6 +2,7 @@
 
 The study material and sprint plan were built from the two supplied syllabus PDFs:
 
+- [Unified complete study material](GATE_DA_ULTIMATE_DUMMIES_GUIDE_2_MONTHS.md)
 - [GATE DA complete study material](GATE_DA_Complete_Study_Material.md)
 - [Expanded coverage supplement](GATE_DA_Expanded_Coverage_Supplement.md)
 - [2024–2026 PYQ solutions](GATE_DA_PYQ_Solutions.md)
