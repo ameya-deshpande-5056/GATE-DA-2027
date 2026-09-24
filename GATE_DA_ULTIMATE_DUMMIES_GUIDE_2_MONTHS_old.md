@@ -1,4 +1,4 @@
-# GATE DA: The Ultimate Guide for Dummies
+# GATE DA: The Ultimate Guide for Dummies (old)
 ## Score a Perfect 100 in Just 2 Months
 
 > **Your Challenge:** 2 months = 176 days. This guide is designed so you can pick it up with zero prior knowledge, study with focus, and score perfectly.
