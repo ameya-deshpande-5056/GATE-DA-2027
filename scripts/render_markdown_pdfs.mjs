@@ -139,6 +139,9 @@ async function renderDocument(page, filePath) {
 
   await page.evaluate(async () => {
     if (typeof window.render === "function") await window.render();
+    if (typeof window.MathJax?.typesetPromise === "function") {
+      await window.MathJax.typesetPromise([document.querySelector("#preview")]);
+    }
   });
   await page.waitForFunction(() => {
     const preview = document.querySelector("#preview");
@@ -161,7 +164,7 @@ async function renderDocument(page, filePath) {
     throw new Error(filePath + " contains " + renderingErrors + " Mermaid rendering error(s):\n" + details.join("\n"));
   }
 
-  await page.addStyleTag({ content: "#preview { height: auto !important; max-height: none !important; overflow: visible !important; }" });
+  await page.addStyleTag({ content: "#preview { height: auto !important; max-height: none !important; overflow: visible !important; } #preview mjx-container { max-width: 100% !important; overflow: visible !important; } #preview mjx-container[display=\"true\"] { display: block !important; } #preview mjx-container svg { max-width: 100% !important; height: auto !important; }" });
   await page.emulateMedia({ media: "print" });
   await page.pdf({
     path: outputPath,
