@@ -45,6 +45,8 @@
 
 ---
 
+<div class="page-break"></div>
+
 # PART 1: GENERAL APTITUDE (GA)
 ## The Easy 14.6 Marks You Absolutely Must Get
 
@@ -236,6 +238,8 @@ Learn these as PHRASES, not individual words:
 - Draw the unfolded result
 
 ---
+
+<div class="page-break"></div>
 
 # PART 2: PROBABILITY & STATISTICS
 ## The Foundation (17.7 + parts of other subjects)
@@ -843,6 +847,8 @@ Where:
 
 ---
 
+<div class="page-break"></div>
+
 # PART 3: LINEAR ALGEBRA
 ## Matrices and Systems (10 marks)
 
@@ -1145,6 +1151,8 @@ This gives the "least squares" solution: the line that minimizes total squared e
 
 ---
 
+<div class="page-break"></div>
+
 # PART 4: CALCULUS
 ## Rates of Change (7.7 marks)
 
@@ -1318,6 +1326,8 @@ Check: e^0 = 1 ✓, e^1 ≈ 1 + 1 + 0.5 + 0.17 + ... ≈ 2.71 ≈ e ✓
 **Why it matters:** Neural networks, exponential functions, and many ML algorithms rely on Taylor approximations for efficiency.
 
 ---
+
+<div class="page-break"></div>
 
 # PART 5: DATA STRUCTURES & ALGORITHMS
 ## Problem Solving Fast (15.3 marks)
@@ -1644,6 +1654,8 @@ Always expand node with smallest f(n).
 
 ---
 
+<div class="page-break"></div>
+
 # PART 6: DATABASES
 ## Organizing and Retrieving Data (12.7 marks)
 
@@ -1912,6 +1924,8 @@ Found between 60 and 80
 | **Durability** | Committed data survives failures | Power outage won't lose saved data |
 
 ---
+
+<div class="page-break"></div>
 
 # PART 7: MACHINE LEARNING
 ## Teaching Computers to Predict (13.7 marks)
@@ -2374,6 +2388,8 @@ Tanh: f(z) = (e^z - e^(-z)) / (e^z + e^(-z))
 
 ---
 
+<div class="page-break"></div>
+
 # PART 8: ARTIFICIAL INTELLIGENCE
 ## Search and Logic (8 marks)
 
@@ -2602,6 +2618,8 @@ Rare events (p=0.01) have larger relative error!
 
 ---
 
+<div class="page-break"></div>
+
 # APPENDIX: FORMULAS & QUICK REFERENCE
 
 ## Probability and Statistics
@@ -2642,6 +2660,8 @@ Rare events (p=0.01) have larger relative error!
 | Taylor series | f(x) ≈ f(a) + f'(a)(x-a) + ... | Polynomial approximation |
 
 ---
+
+<div class="page-break"></div>
 
 # YOUR SUCCESS CHECKLIST
 
