@@ -43,7 +43,7 @@
 
 **Why this order matters:** The top 4 subjects = 59.4 marks. If you perfect these, you already have more than half the exam.
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: where the 100 marks come from**
 
@@ -59,7 +59,7 @@ pie showData title Marks by subject (out of 100)
     "Calculus" : 7.7
 ```
 
-<div class="page-break"></div>
+
 
 ## Your 8-Week Study Plan (60 Days)
 
@@ -76,7 +76,7 @@ pie showData title Marks by subject (out of 100)
 
 **After Week 8:** 4 weeks of mixed practice and weak-topic repair.
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: the plan at a glance**
 
@@ -128,7 +128,7 @@ Every English word is one of these 8 types:
 
 Sentence: *"The quick analyst quickly ran the model in the lab because it was late."*
 
-<div class="page-break"></div>
+
 
 | Word | Part of speech | Why? |
 |---|---|---|
@@ -160,7 +160,7 @@ Sentence: *"The quick analyst quickly ran the model in the lab because it was la
 
 Find the REAL subject by mentally deleting the extra phrase (the part starting with *of, in, with, along with, as well as*).
 
-<div class="page-break"></div>
+
 
 | Sentence | Real subject | Verb |
 |---|---|---|
@@ -186,7 +186,7 @@ Every verb shows WHEN something happens:
 
 **Trap:** "Did he **go**?" not "Did he **went**?" After "did," always use the base form.
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — One student, five tenses**
 
@@ -224,7 +224,7 @@ Every verb shows WHEN something happens:
 
 **Sound, not spelling, decides a/an:** **an** hour (silent h), **an** MBA (says "em"), **a** university (says "yoo"), **a** one-time offer (says "wun").
 
-<div class="page-break"></div>
+
 
 ### Grammar Rule 4: Prepositions (Connection words)
 
@@ -266,7 +266,7 @@ Learn these as PHRASES, not individual words:
 - **Opinion questions:** "What does the author believe?" → Author's evaluation
 - **Purpose questions:** "Why did the author write this?" → Author's main goal
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: the 4-step loop**
 
@@ -296,7 +296,7 @@ flowchart LR
 
 **What it means:** Out of 100, how many?
 
-<div class="page-break"></div>
+
 
 | Concept | Formula | Example |
 |---|---|---|
@@ -343,7 +343,7 @@ Net = −4%, NOT 0%.   Shortcut: multiply the factors 1.20 × 0.80 = 0.96
 
 **Points vs change:** accuracy 40% → 50% is **+10 percentage points** but a **+25% change** ((10 ÷ 40) × 100).
 
-<div class="page-break"></div>
+
 
 ### Concept 2: Ratios (Comparing quantities)
 
@@ -403,7 +403,7 @@ A : B = 8 : 12    B : C = 12 : 15   →   A : B : C = 8 : 12 : 15
 - At least one = Total - None
 - Example: At least one red ball = All outcomes - All non-red balls
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — Which tool do I use?**
 
@@ -444,7 +444,7 @@ At least one head = 8 − 1 = 7   →  probability 7/8
 
 **Deck of 52:** P(ace) = 4/52 = 1/13. P(heart) = 13/52 = 1/4.
 
-<div class="page-break"></div>
+
 
 **Sanity check:** every probability must lie between 0 and 1. If you get 1.4 or −0.2, you made a mistake.
 
@@ -485,7 +485,7 @@ At least one head = 8 − 1 = 7   →  probability 7/8
 
 A standard die has **opposite faces adding to 7** (1↔6, 2↔5, 3↔4).
 
-<div class="page-break"></div>
+
 
 Start: **top = 1, front = 2** → so bottom = 6, back = 5.
 Now **tip the die toward you** (top face falls to the front):
@@ -524,6 +524,8 @@ New view: top = 5, front = 1, bottom = 2, back = 6. Check: 5+2 = 7 ✓ and 1+6 =
 
 **Rule:** holes = 2^(number of folds) for a hole punched through all layers.
 **Trap:** a half-circle cut **on the fold line** becomes **one** full circle when unfolded (it is not doubled into two half-circles).
+
+
 
 <div class="page-break"></div>
 
@@ -572,7 +574,7 @@ flowchart LR
 - **Digits 1–5, make a 3-digit number, no repeats:** 5 × 4 × 3 = **60**.
 - **Same, but the number must be EVEN:** handle the restricted position **first**.
 
-<div class="page-break"></div>
+
 
 ```
 Last digit must be 2 or 4  → 2 choices
@@ -628,7 +630,7 @@ Correct total = 12 + 8 − 3 = 17 different students
 - Reads as "n permute r"
 - n! = n × (n-1) × (n-2) × ... × 1 (factorial, meaning multiply all numbers down to 1)
 
-<div class="page-break"></div>
+
 
 **Example:** Arrange 3 people from 10 in a line:
 - P(10, 3) = 10 × 9 × 8 = 720 ways
@@ -673,7 +675,7 @@ C(n, r) = \binom{n}{r} = \frac{n!}{r!\,(n-r)!} = \frac{P(n,r)}{r!},
 \qquad \binom{n}{r} = \binom{n}{n-r}
 $$
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — Teams, hands and a constraint**
 
@@ -732,7 +734,7 @@ P(A) = \frac{\text{number of favorable outcomes}}{\text{total number of equally 
 \qquad 0 \le P(A) \le 1
 $$
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — List the sample space when in doubt**
 
@@ -791,7 +793,7 @@ P(none blue) = 0.9^10 ≈ 0.349      →  P(at least one) = 1 − 0.349 ≈ 0.65
 ```
 Counting "exactly 1, exactly 2, … exactly 10" separately would take forever. Subtracting from 1 is one line.
 
-<div class="page-break"></div>
+
 
 **💻 In code: the complement trick**
 
@@ -832,7 +834,7 @@ $$
 
 A class has **100 students**. 60 like Maths (M), 40 like Physics (P), 25 like **both**.
 
-<div class="page-break"></div>
+
 
 | Symbol | Meaning here | Value |
 |---|---|---|
@@ -886,7 +888,7 @@ P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
 
 **Why subtract the overlap?** Because when you add P(A) + P(B), you count the overlap twice.
 
-<div class="page-break"></div>
+
 
 **Real example:** 
 - 60% of students study math (A)
@@ -948,7 +950,7 @@ With replacement (put the card back) it is independent: (4/52)² = 1/169.
 
 **Independence test:** in our class, P(M) × P(P) = 0.60 × 0.40 = 0.24, but P(M ∩ P) = 0.25. Not equal → Maths-liking and Physics-liking are **not independent**.
 
-<div class="page-break"></div>
+
 
 ### Rule 4: Conditional Probability (Given that we know something)
 
@@ -1003,7 +1005,7 @@ P(A | B) = P(B | A) × P(A) / P(B)
 
 **Question:** You test positive. What's the real probability you have the disease?
 
-<div class="page-break"></div>
+
 
 **Answer using Bayes:**
 - P(positive | disease) = 0.99
@@ -1052,7 +1054,7 @@ P(sick | positive) = 99 / 1,089 ≈ 9.09%   (matches the formula!)
 ```
 **Why so low?** The 990 false alarms from the huge healthy group swamp the 99 true cases.
 
-<div class="page-break"></div>
+
 
 **Second example — spam filter.** 30% of emails are spam. The word "free" appears in 60% of spam and 5% of normal mail. An email contains "free". P(spam)?
 ```
@@ -1111,7 +1113,7 @@ flowchart TD
     Q -->|"waiting time until<br/>the next event"| E1["Exponential(lambda)"]
 ```
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — Two coin flips, X = number of heads**
 
@@ -1169,7 +1171,7 @@ Bonus facts used everywhere later: **mean = p = 0.7**, **variance = p(1−p) = 0
 
 **What it models:** Multiple independent trials, each with same success probability.
 
-<div class="page-break"></div>
+
 
 **When to use:**
 - Flipped a coin 10 times, how many heads?
@@ -1218,7 +1220,7 @@ Bonus: **mean = n·p = 1.25** correct answers on average, **variance = n·p·(1�
 
 **Is it really binomial? Check the 4 requirements.** Drawing 3 cards *without* replacement and counting aces is **not** binomial (the probability changes after each draw, so trials aren't independent).
 
-<div class="page-break"></div>
+
 
 **💻 In code: binomial with scipy**
 
@@ -1282,7 +1284,7 @@ P(at least one email)    = 1 − 0.0498     ≈ 0.950
 P(exactly 2 emails)      = e^−3 × 9/2     ≈ 0.224  (as in the guide)
 ```
 
-<div class="page-break"></div>
+
 
 **Change the time window → change λ.** In 30 minutes the average is 3 × 0.5 = **1.5**, so P(no emails in 30 min) = e^−1.5 ≈ **0.223**.
 
@@ -1334,7 +1336,7 @@ Notation: X ~ N(μ, σ²)
 - 95% scored between 50-90
 - 99.7% scored between 40-100
 
-<div class="page-break"></div>
+
 
 **📐 Math notation**
 
@@ -1402,7 +1404,7 @@ P(X) = 1 / n
 Where n = number of outcomes
 ```
 
-<div class="page-break"></div>
+
 
 **📐 Math notation**
 
@@ -1463,7 +1465,7 @@ P(wait ≤ 10 min = 1/6 hour) = 1 − e^(−0.5) ≈ 0.393
 ```
 **Memoryless property:** you've already waited 30 minutes with no customer. The chance you wait *another* 20 minutes is still 0.368. The past doesn't matter.
 
-<div class="page-break"></div>
+
 
 **Unit trap:** keep units consistent. λ = 3 **per hour** → t must be in **hours**.
 
@@ -1528,7 +1530,7 @@ E[winnings] = 30 × (1/6) + 0 × (5/6) = ₹5
 E[profit]   = 5 − 10 = −₹5 per game
 ```
 
-<div class="page-break"></div>
+
 
 On average you **lose ₹5 every game**. (Any single game you either lose ₹10 or win ₹20; the "average" is what happens over many games.)
 
@@ -1578,7 +1580,7 @@ Var(X) = E[X²] − (E[X])² = 18.67 − 16 = 2.67
 - **Multiplying scales by the square:** Var(2X) = 2² × 2.67 = **10.67**.
 - **Independent variables add:** Var(X + Y) = Var(X) + Var(Y). Two dice: 2.92 + 2.92 = **5.83**.
 
-<div class="page-break"></div>
+
 
 **💻 In code: expectation, variance and standard deviation of a fair die**
 
@@ -1637,7 +1639,7 @@ Cov(X,Y) = E[(X - E[X])(Y - E[Y])]
 Simpler form: Cov(X,Y) = E[XY] - E[X]×E[Y]
 ```
 
-<div class="page-break"></div>
+
 
 **Intuition:**
 - Positive covariance: When X goes up, Y tends to go up
@@ -1698,7 +1700,7 @@ Where:
 - ρ = 0: No linear relationship
 - ρ = 0.7: Strong positive relationship
 
-<div class="page-break"></div>
+
 
 **Key rule:**
 ```
@@ -1749,7 +1751,7 @@ print(round(float(np.corrcoef(x, y)[0, 1]), 4))      # correlation, always in [-
 
 **What's the problem:** You can't survey everyone. You sample 100 people, but you want to know about all 1 million.
 
-<div class="page-break"></div>
+
 
 **The Central Limit Theorem (Most important statistics concept):**
 
@@ -1801,7 +1803,7 @@ flowchart LR
 
 One die: μ = 3.5, σ = 1.71. Roll it **36 times** and take the average. How likely is the average to exceed 4?
 
-<div class="page-break"></div>
+
 
 ```
 The sample mean is ~ Normal with mean 3.5 and SD = σ/√n = 1.71/6 ≈ 0.285
@@ -1855,7 +1857,7 @@ The Maths mark is higher (85 > 78), but Physics is **3 σ above average** vs 1.5
 
 **Reading Z:** 0 = exactly average · ±1 = normal · ±2 = unusual (5%) · beyond ±3 = very rare (outlier).
 
-<div class="page-break"></div>
+
 
 ### Concept 3: Confidence Intervals (Range of likely values)
 
@@ -1907,7 +1909,7 @@ Earlier: n = 100, x̄ = 75, σ = 5 → 75 ± 1.96 × 0.5 = **[74.02, 75.98]**.
 
 **Reverse trick for exam questions:** given an interval [74.02, 75.98]: sample mean = midpoint = **75**, margin of error = half the width = **0.98**.
 
-<div class="page-break"></div>
+
 
 **Interpretation trap:** don't say "there's a 95% chance the true mean is in this interval". The true mean is fixed. The correct meaning: **this method** captures the true mean in 95% of repeated samples.
 
@@ -1954,7 +1956,7 @@ flowchart LR
     E -->|"no"| G["Fail to reject H0<br/>(could be noise)"]
 ```
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: which test do I run?**
 
@@ -1976,7 +1978,7 @@ A company says its batteries last **500 hours** on average (known σ = 40). You 
 4. **Decision at 5%:** 0.0455 < 0.05 → **reject H₀**. The batteries seem to fall short.
 5. **But at 1%:** 0.0455 > 0.01 → we would **not** reject. The conclusion depends on how strict you choose to be *before* looking at the data.
 
-<div class="page-break"></div>
+
 
 **Two ways to be wrong:**
 - **Type I error** (false alarm): rejecting a true H₀. Probability = α (e.g., 5%). *Court analogy: convicting an innocent person.*
@@ -2034,7 +2036,7 @@ print(round(z, 2), round(p, 4))             # p < 0.05 -> reject H0
 # 2.0 0.0455
 ```
 
-<div class="page-break"></div>
+
 
 ### Test 2: T-Test (When you don't know the population standard deviation)
 
@@ -2088,7 +2090,7 @@ print(round(float(res.statistic), 3), round(float(res.pvalue), 4))
 
 **When to use:** Comparing observed counts to expected counts.
 
-<div class="page-break"></div>
+
 
 **Formula:**
 ```
@@ -2138,7 +2140,7 @@ $$
 Expected count for each cell = (row total × column total)/grand total = 50 × 50/100 = **25**.
 χ² = 4 × (5²/25) = **4.0**, df = (rows−1)(cols−1) = **1**, critical = 3.84 → 4.0 > 3.84 → **reject H₀**: preference and gender appear related.
 
-<div class="page-break"></div>
+
 
 **💻 In code: goodness-of-fit test**
 
@@ -2206,7 +2208,7 @@ You'll use the dot product again in projections and in every neuron (w · x).
 
 **A matrix is:** A rectangular grid of numbers.
 
-<div class="page-break"></div>
+
 
 ```
 A = [1  2  3]  ← 3 elements, row 1
@@ -2258,7 +2260,7 @@ Store 2  [     7    12     3  ]      → A is 2×3  (2 rows, 3 columns, 6 entrie
 
 **Matrix multiplication:** This is tricky!
 
-<div class="page-break"></div>
+
 
 ```
 A (2×3) × B (3×2) = C (2×2)
@@ -2314,7 +2316,7 @@ A = [1 2]   B = [0 1]     AB = [2 1]     BA = [3 4]
 ```
 (Multiplying by B on the right swaps A's *columns*; on the left it swaps A's *rows*.)
 
-<div class="page-break"></div>
+
 
 **💻 In code: matrix arithmetic in NumPy**
 
@@ -2363,7 +2365,7 @@ AI = IA = A,
 \qquad \det(AB) = \det(A)\det(B)
 $$
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — See each special matrix in action**
 
@@ -2417,7 +2419,7 @@ $$
  x −  y = 1    →     [1 −1] [y] = [1]     i.e.  A x = b
 ```
 
-<div class="page-break"></div>
+
 
 Solution (found with elimination below): **x = 2.2, y = 1.2**.
 Check: 2(2.2) + 3(1.2) = 4.4 + 3.6 = **8** ✓ and 2.2 − 1.2 = **1** ✓.
@@ -2481,7 +2483,7 @@ x + 3 + (−2) = 6      → x = 5            Answer: (5, 3, −2)
 ```
 **Check in the original equations:** 5+3−2 = 6 ✓; 6−10 = −4 ✓; 10+15+2 = 27 ✓.
 
-<div class="page-break"></div>
+
 
 **Only 3 moves are allowed:** swap two rows · multiply a row by a non-zero number · add a multiple of one row to another.
 
@@ -2517,7 +2519,7 @@ $$
 \qquad (n = \text{number of unknowns})
 $$
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: how many solutions?**
 
@@ -2530,7 +2532,7 @@ flowchart TD
     C -->|"no, rank is smaller"| I["Infinitely many solutions<br/>(n - rank free variables)"]
 ```
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — What elimination tells you**
 
@@ -2584,7 +2586,7 @@ Two non-zero rows remain → rank = 2
 - I₃ (3×3 identity) → rank **3**. Zero matrix → rank **0**. Rank can never exceed min(rows, columns).
 - [[1,2],[3,4]]: rows are not multiples of each other → rank **2** (full rank, invertible).
 
-<div class="page-break"></div>
+
 
 **Real-life meaning:** if a dataset has a column "height in cm" and another "height in inches", one column is a multiple of the other → rank drops → the regression formula (XᵀX)⁻¹ **breaks** (no inverse exists).
 
@@ -2642,7 +2644,7 @@ flowchart LR
 
 A (3×4) = [[1, 2, 0, 1], [0, 0, 1, 1], [1, 2, 1, 2]]. Solve **Ax = 0**.
 
-<div class="page-break"></div>
+
 
 ```
 R3 − R1 − R2 = [0 0 0 0]  → rank = 2,   columns n = 4   →   nullity = 4 − 2 = 2
@@ -2703,7 +2705,7 @@ det(A - λI) = 0
 This is called the characteristic equation.
 ```
 
-<div class="page-break"></div>
+
 
 **Process:**
 1. Write A - λI
@@ -2767,7 +2769,7 @@ Verify: A·[1, −2] = [4−2, 2−6] = [2, −4] = 2·[1, −2] ✓.
 
 **Quick formula for 2×2:** λ² − (trace)λ + det = 0.
 
-<div class="page-break"></div>
+
 
 **💻 In code: eigenvalues and eigenvectors**
 
@@ -2829,7 +2831,7 @@ Answer: x = [2.6, −0.2]        Check: 6(2.6) + 8(−0.2) = 15.6 − 1.6 = 14 �
 ```
 If tomorrow b changes, you reuse L and U and do just the two cheap steps.
 
-<div class="page-break"></div>
+
 
 **💻 In code: LU with SciPy**
 
@@ -2894,7 +2896,7 @@ A = U\,\Sigma\,V^{T},
 \end{gathered}
 $$
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: what A does to a vector**
 
@@ -2948,7 +2950,7 @@ proj_a(b) = (b·a / a·a) × a
 In matrix form: proj = a(a^T a)^{-1}a^T b
 ```
 
-<div class="page-break"></div>
+
 
 **📐 Math notation**
 
@@ -3010,7 +3012,7 @@ AᵀA = I  →  P = A(AᵀA)⁻¹Aᵀ = AAᵀ = [1 0 0]
 P × b = [3, 4, 0]           (the height 5 is dropped)
 ```
 
-<div class="page-break"></div>
+
 
 **Two properties of any projection matrix:** P² = P (projecting twice = projecting once) and P is symmetric (Pᵀ = P). Check: diag(1,1,0)² = diag(1,1,0) ✓.
 
@@ -3120,7 +3122,7 @@ f(x) = (x² − 1)/(x − 1) is **undefined** at x = 1 (0/0). But what does it *
 
 **Limits at infinity:** lim(x→∞) 1/x = 0 (bigger x, smaller value).
 
-<div class="page-break"></div>
+
 
 **💻 In code: limits with SymPy**
 
@@ -3165,7 +3167,7 @@ f(x) = (x² − 1)/(x − 1) at x = 1:
 
 **ML link:** ReLU, f(x) = max(0, x), is continuous everywhere but has a sharp corner at 0, so it is **not differentiable at 0** (continuous does not imply differentiable). Polynomials, eˣ and sin x are continuous everywhere.
 
-<div class="page-break"></div>
+
 
 ## Chapter 2: Derivatives (Slope and rates)
 
@@ -3226,7 +3228,7 @@ Then f'(x) = 0
 Example: f(x) = 5 → f'(x) = 0
 ```
 
-<div class="page-break"></div>
+
 
 **Rule 3: Sum Rule**
 ```
@@ -3269,7 +3271,7 @@ $$
 
 **Spotting the rule:** *two things multiplied* → Product. *One function inside another* → Chain. *One function divided by another* → Quotient.
 
-<div class="page-break"></div>
+
 
 | Function | Rule | Derivative |
 |---|---|---|
@@ -3303,7 +3305,7 @@ print(sp.diff(sp.exp(3 * x**2), x))      # chain rule
 # 6*x*exp(3*x**2)
 ```
 
-<div class="page-break"></div>
+
 
 ## Chapter 3: Applications of Derivatives
 
@@ -3342,7 +3344,7 @@ flowchart TD
     B -->|"zero"| I["Inconclusive:<br/>check f' on both sides"]
 ```
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — A cubic with both a peak and a valley**
 
@@ -3400,7 +3402,7 @@ A'(x) = 20 − 2x = 0  →  x = 10;   A'' = −2 < 0 (max)   →  10 × 10 squar
 ```
 **2) Gradient descent (how ML actually does it):** minimize L(w) = (w − 3)², so L'(w) = 2(w − 3). Update rule: **w ← w − η · L'(w)**, learning rate η = 0.1.
 
-<div class="page-break"></div>
+
 
 | Step | w | gradient 2(w−3) | new w |
 |---|---|---|---|
@@ -3457,7 +3459,7 @@ Check: e^0 = 1 ✓, e^1 ≈ 1 + 1 + 0.5 + 0.17 + ... ≈ 2.71 ≈ e ✓
 
 **Why it matters:** Neural networks, exponential functions, and many ML algorithms rely on Taylor approximations for efficiency.
 
-<div class="page-break"></div>
+
 
 **📐 Math notation**
 
@@ -3501,6 +3503,8 @@ for n in (1, 2, 3, 5):
 # 3 2.66667 error 0.05162
 # 5 2.71667 error 0.00162
 ```
+
+
 
 <div class="page-break"></div>
 
@@ -3554,7 +3558,7 @@ Push (add): [3]         Pop (remove): [3]  →  [1]
 
 Use a stack: **push** on "(", **pop** on ")". Balanced only if the stack is empty at the end and never popped when empty.
 
-<div class="page-break"></div>
+
 
 | String | Walk-through | Result |
 |---|---|---|
@@ -3610,7 +3614,7 @@ print(queue.popleft(), queue.popleft())    # 1 2  (first in, first out)
 # 1 2
 ```
 
-<div class="page-break"></div>
+
 
 ### Structure 4: Hash Tables (Dictionary)
 
@@ -3666,7 +3670,7 @@ Insert keys **12, 8, 15, 22**:
 
 **Load factor** α = keys/slots = 4/5 = 0.8. Higher α → more collisions → slower. That is why real hash tables resize when they get too full.
 
-<div class="page-break"></div>
+
 
 **💻 In code: a tiny hash table with chaining**
 
@@ -3724,7 +3728,7 @@ List: `head → [1] → [2] → [3] → NULL`
     1   4
 ```
 
-<div class="page-break"></div>
+
 
 **Operations:**
 - Search: O(log n) if balanced
@@ -3779,7 +3783,7 @@ Represented as:
 - Adjacency list (space-efficient)
 ```
 
-<div class="page-break"></div>
+
 
 **📐 Math notation**
 
@@ -3838,7 +3842,7 @@ Pass 3: no swaps at all → STOP (already sorted)
 **Cost:** comparisons = (n−1) + (n−2) + … + 1 = n(n−1)/2. For n = 1000 that's ≈ 500,000, so **O(n²)**.
 **Best case:** already sorted + "stop if no swaps" → one pass → **O(n)**.
 
-<div class="page-break"></div>
+
 
 ### Algorithm 2: Merge Sort
 
@@ -3889,7 +3893,7 @@ Result:  [1, 3, 5, 8]
 ```
 **Why n log n?** With n = 8 there are log₂ 8 = **3 levels** of merging, and each level touches all n items → 8 × 3 = 24 steps. **Cost:** uses O(n) extra memory; it is **stable** (equal items keep their order).
 
-<div class="page-break"></div>
+
 
 **💻 In code: merge sort in 8 lines**
 
@@ -3948,7 +3952,7 @@ comparisons = 4 + 3 + 2 + 1 = 10  →  n(n−1)/2  →  O(n²)
 
 A max-heap keeps the biggest at the top; for index i, children are at 2i+1 and 2i+2.
 
-<div class="page-break"></div>
+
 
 ```
 Build max-heap:  [4,10,3,5,1] → swap 4 with 10 → [10,4,3,5,1] → swap 4 with 5 → [10,5,3,4,1]
@@ -3966,7 +3970,7 @@ Numbers leave the heap in order 10, 5, 4, 3, 1 and are placed from the back → 
 | Heap sort | Guaranteed O(n log n) | O(n log n) |
 | Bubble sort | Teaching only | O(n²) |
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: choosing a sort**
 
@@ -3980,7 +3984,7 @@ flowchart TD
     B -->|"no"| H["Heap sort<br/>in place"]
 ```
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — Pick the algorithm for the situation**
 
@@ -4032,7 +4036,7 @@ Check middle (5): Found! Position 3
 
 **Complexity:** O(log n) - very fast!
 
-<div class="page-break"></div>
+
 
 **Requirement:** Data must be sorted
 
@@ -4082,7 +4086,7 @@ print(binary_search(list(range(1, 1025)), 700))    # (index, steps): at most 11 
 # (699, 8)
 ```
 
-<div class="page-break"></div>
+
 
 ## Chapter 4: Graph Algorithms
 
@@ -4139,7 +4143,7 @@ Visit order: S, A, B, C, D, G
 ```
 **Levels (distance from S):** S = 0 · A, B = 1 · C, D = 2 · G = 3. Shortest path: **S → A → C → G** (3 edges). BFS is perfect for "fewest steps" in unweighted graphs.
 
-<div class="page-break"></div>
+
 
 **💻 In code: BFS with a queue**
 
@@ -4186,7 +4190,7 @@ print(bfs("S", "G"))       # (visit order, shortest path)
 
 **Data structure:** Stack
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: DFS visit order (dive first, backtrack later)**
 
@@ -4242,7 +4246,7 @@ print(dfs("S"))            # dives deep first, backtracks when stuck
 3. Update neighbors' distances through this node
 4. Repeat until all visited
 
-<div class="page-break"></div>
+
 
 **Complexity:** O((V+E) log V) with heap, O(V²) with array
 
@@ -4288,7 +4292,7 @@ Shortest **A → D = 3**, via **A → C → D** (the path A → B → D costs 4)
 
 **Why no negative weights?** Dijkstra assumes once a node is picked, its distance is final. A negative edge discovered later could make it even shorter, which breaks that assumption.
 
-<div class="page-break"></div>
+
 
 **💻 In code: Dijkstra with a priority queue**
 
@@ -4349,7 +4353,7 @@ Expand B (f=6, lower than G's 7):  G via B: g=6, f=6  → improves G
 Expand G (f=6) → goal reached. Path S → B → G, cost 6 (the other path costs 7).
 ```
 
-<div class="page-break"></div>
+
 
 **Important:** stop only when the goal is *taken off* the frontier, not when it is first discovered, otherwise you would return the cost-7 path.
 **Admissible example:** straight-line distance ≤ driving distance; Manhattan distance on a grid that allows only up/down/left/right moves.
@@ -4398,7 +4402,7 @@ flowchart LR
     class E,F slow
 ```
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — Read the loops, count the steps**
 
@@ -4441,6 +4445,8 @@ while i > 1:  i = i / 2   # 1024 → 512 → … → 1 = 10 steps  → O(log n)
 - **Binary search** doesn't care: best, average and worst all stay O(log n).
 
 **Exam habit:** when a question says "worst case", assume the adversary picks the nastiest input.
+
+
 
 <div class="page-break"></div>
 
@@ -4492,7 +4498,7 @@ Students:                   Enrollments:
 
 **Many-to-Many:** Students and courses have many-to-many relationship.
 
-<div class="page-break"></div>
+
 
 ```
 Solution: Intermediate "junction" table:
@@ -4531,7 +4537,7 @@ StudentID | Name        StudentID | CourseID          CourseID | Title
 - **Alice ↔ two courses; DBMS ↔ two students** → many-to-many → needs the junction table. Its primary key is the pair **(StudentID, CourseID)**; each half is a **foreign key**.
 - **One-to-many:** one Department has many Employees → put DepartmentID as a foreign key in the *Employee* table (the "many" side).
 
-<div class="page-break"></div>
+
 
 ## Chapter 2: SQL (Language to query databases)
 
@@ -4584,7 +4590,7 @@ SELECT DISTINCT Age FROM Students;   -- removes duplicate values (ages 20, 21, 1
 ```
 **Logical order SQL actually runs (a GATE favourite):** FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT.
 
-<div class="page-break"></div>
+
 
 ### Concept 2: Filtering (WHERE clause)
 
@@ -4639,7 +4645,7 @@ ON Students.StudentID = Enrollments.StudentID;
 
 **LEFT JOIN:** All rows from left table, matching rows from right.
 
-<div class="page-break"></div>
+
 
 ```sql
 SELECT Students.Name, Enrollments.CourseID
@@ -4702,7 +4708,7 @@ print(db.execute(q.format("LEFT JOIN")).fetchall())    # keeps Charlie, with Non
 # [('Alice', 'C1'), ('Alice', 'C2'), ('Bob', 'C1'), ('Charlie', None)]
 ```
 
-<div class="page-break"></div>
+
 
 ### Concept 4: Aggregation (Summarizing)
 
@@ -4763,7 +4769,7 @@ print(rows)                # courses with more than one student
 # [('C1', 3), ('C2', 2)]
 ```
 
-<div class="page-break"></div>
+
 
 ### Concept 5: Sorting and Limiting
 
@@ -4823,7 +4829,7 @@ flowchart LR
     N2 -->|"no transitive dependency<br/>non-key to non-key"| N3["3NF"]
 ```
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — The three "anomalies" (why bad design hurts)**
 
@@ -4879,7 +4885,7 @@ InstructorName depends only on CourseID, not StudentID!
 Good: Split into two tables
 ```
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — Split the partial dependency**
 
@@ -4933,7 +4939,7 @@ A⁺ = {A}  → A→B adds B → {A,B} → B→C adds C → {A,B,C}   (D is miss
 ```
 **Memory hook for 3NF:** "Every non-key attribute depends on **the key, the whole key, and nothing but the key**."
 
-<div class="page-break"></div>
+
 
 ## Chapter 4: Indexes (Speed up queries)
 
@@ -4987,7 +4993,7 @@ print(db.execute(q).fetchall()[0][-1])        # with index: jumps straight to th
 
 **How it works:** Balanced tree structure for sorted data.
 
-<div class="page-break"></div>
+
 
 ```
         [50]
@@ -5032,7 +5038,7 @@ So finding any of 1,000,000 keys takes just **3 disk reads**. Fan-out (many keys
 - Leaves contain actual data
 - Internal nodes are just for navigation
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: internal nodes navigate, leaves hold data and are chained**
 
@@ -5053,7 +5059,7 @@ flowchart TD
 
 In a **B+ tree** all keys live in the **leaves**, and the leaves are linked in sorted order.
 
-<div class="page-break"></div>
+
 
 ```
 1. Descend from the root to the leaf containing 30           (a few steps)
@@ -5072,7 +5078,7 @@ No need to climb up and down the tree for each key. In a plain B-tree the same r
 | **Isolation** | Concurrent transactions don't interfere | Two transfers don't see partial results |
 | **Durability** | Committed data survives failures | Power outage won't lose saved data |
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: life of a transaction**
 
@@ -5098,7 +5104,7 @@ stateDiagram-v2
 5. COMMIT
 ```
 
-<div class="page-break"></div>
+
 
 | Property | What it means in this story |
 |---|---|
@@ -5106,6 +5112,8 @@ stateDiagram-v2
 | **Consistency** | A + B = 1500 before and after. The rule "total money unchanged" holds. |
 | **Isolation** | Someone reading balances during step 3 must not see A = 800 and B = 500 (total 1300). |
 | **Durability** | After COMMIT, a crash one second later still shows A = 800, B = 700. |
+
+
 
 <div class="page-break"></div>
 
@@ -5144,7 +5152,7 @@ flowchart TD
     RL --> AG["Agent learns by<br/>trial and error"]
 ```
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — Which type is it?**
 
@@ -5186,7 +5194,7 @@ Validation 15% = 150   (mock tests you use to pick the best study plan / hyper-p
 Test 15% = 150   (the real exam, opened only ONCE at the very end)
 ```
 
-<div class="page-break"></div>
+
 
 **Why it matters:** if you memorise the answers to the exam paper beforehand, your score says nothing about real ability. Same with models.
 
@@ -5239,7 +5247,7 @@ Predict 0.01 → −ln(0.01) = 4.605
 ```
 That is what "penalizes confident wrong predictions" means.
 
-<div class="page-break"></div>
+
 
 ## Chapter 2: Regression (Predicting numbers)
 
@@ -5301,7 +5309,7 @@ Model: ŷ = 2.2 + 0.6x
 ```
 **Read it:** each extra hour of study adds about **0.6 marks**; with 0 hours you'd expect 2.2. Predict 6 hours → 2.2 + 3.6 = **5.8**.
 
-<div class="page-break"></div>
+
 
 **Many features:** ŷ = 20 + 5·(bedrooms) + 0.1·(area in m²) in ₹ lakh. A 3-bedroom, 100 m² home → 20 + 15 + 10 = **₹45 lakh**.
 
@@ -5363,7 +5371,7 @@ One feature, no intercept: x = [1, 2, 3], y = [2, 4, 6]. Here XᵀX = 1+4+9 = **
 ```
 **Story:** λ is a "brake" on the coefficients. A little brake stops the model chasing noise; too much brake and it can't learn anything.
 
-<div class="page-break"></div>
+
 
 **💻 In code: ridge tames unstable weights**
 
@@ -5424,7 +5432,7 @@ $$
 **Decision boundary:** σ(z) = 0.5 exactly when z = 0 → −4 + 0.5h = 0 → **h = 8 hours**.
 **Log-odds view:** at z = 1 the odds of passing are e¹ ≈ 2.72 to 1 → probability 2.72/3.72 = 0.731 ✓. Each extra study hour multiplies the odds by e^0.5 ≈ 1.65.
 
-<div class="page-break"></div>
+
 
 **💻 In code: probability of passing**
 
@@ -5487,7 +5495,7 @@ P(spam | free, win) = 0.08 / (0.08 + 0.003) ≈ 0.964
 **"Naive" = we simply multiplied the word probabilities as if the words were independent.**
 **Zero-frequency trap:** if a word never appeared in spam, its probability is 0 and wipes out the whole product. Fix: *Laplace smoothing* (add 1 to every count).
 
-<div class="page-break"></div>
+
 
 ### Algorithm 2: k-Nearest Neighbors (kNN)
 
@@ -5542,7 +5550,7 @@ Tiny k follows every noisy point (overfits); huge k blurs everything (underfits)
 
 **Scale trap:** person A (age 30, income ₹50,000), B (age 60, income ₹50,500), C (age 31, income ₹60,000). Distance A–B ≈ 501, A–C ≈ 10,000. Income dominates completely, so age hardly matters. **Standardize features before using kNN.**
 
-<div class="page-break"></div>
+
 
 **💻 In code: kNN in three lines**
 
@@ -5610,7 +5618,7 @@ H = -\sum_i p_i \log_2 p_i,
 \mathrm{IG} = H(\text{parent}) - \sum_j \frac{n_j}{n}\,H(\text{child}_j)
 $$
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: the loan tree**
 
@@ -5639,7 +5647,7 @@ Entropy = −0.6·log₂0.6 − 0.4·log₂0.4 = 0.971
 - Left: 4 yes, 1 no → entropy 0.722 (Gini 0.32)
 - Right: 1 yes, 4 no → entropy 0.722 (Gini 0.32)
 
-<div class="page-break"></div>
+
 
 ```
 Weighted entropy after split = 0.5 × 0.722 + 0.5 × 0.722 = 0.722
@@ -5699,7 +5707,7 @@ $$
 \ \ \text{s.t.}\ \ y_i(\mathbf{w}^{T}\mathbf{x}_i + b) \ge 1
 $$
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — 1-D points and the "widest street"**
 
@@ -5750,7 +5758,7 @@ Measures straight-line distance between points
 - Domain knowledge: How many clusters make sense?
 - Silhouette score: Measure of cluster quality
 
-<div class="page-break"></div>
+
 
 **📐 Math notation**
 
@@ -5812,7 +5820,7 @@ Good for: Identifying elongated clusters
 Bad for: Outliers create long chains
 ```
 
-<div class="page-break"></div>
+
 
 **Complete Linkage:** Distance between farthest pair
 ```
@@ -5859,7 +5867,7 @@ Merge order: closest pair first → **A–B** (distance 1), then **C–D** (dist
 | Complete (max) | farthest pair: A–D = 8 | **8** |
 | Average | (A–C 5 + A–D 8 + B–C 4 + B–D 7)/4 | **6** |
 
-<div class="page-break"></div>
+
 
 The last merge joins everything into one cluster at height 4, 8 or 6 depending on the linkage. On the dendrogram the merge heights are exactly these distances. Cut the tree at a chosen height to get the clusters you want.
 
@@ -5919,7 +5927,7 @@ Variance explained: PC1 = 3/(3+1) = 75%,  PC2 = 25%
 ```
 **Keep only PC1:** a point (2, 2) becomes the single number (2 + 2)/√2 ≈ **2.83**. You dropped a feature and kept 75% of the variance.
 
-<div class="page-break"></div>
+
 
 **Centering step:** feature values 2, 4, 6 have mean 4 → centered values −2, 0, 2. (Always subtract the mean first.)
 **Typical use:** keep enough components to reach ~90–95% of variance.
@@ -5971,7 +5979,7 @@ R² = 1 − 900/7200 = 0.875
 ```
 **Read R² = 0.875:** the model explains **87.5%** of the variation in house prices. R² = 0 means "no better than always guessing the mean"; it can even go negative for a terrible model.
 
-<div class="page-break"></div>
+
 
 ### For Classification:
 
@@ -6025,7 +6033,7 @@ flowchart TD
 | **Actually spam** | TP = 40 | FN = 5 |
 | **Actually not spam** | FP = 10 | TN = 45 |
 
-<div class="page-break"></div>
+
 
 ```
 Accuracy  = (40 + 45)/100          = 0.85
@@ -6082,7 +6090,7 @@ $$
 
 Each fold = 100/5 = **20** samples. Every round trains on **80** and tests on **20**.
 
-<div class="page-break"></div>
+
 
 | Fold tested | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|
@@ -6130,7 +6138,7 @@ $$
 
 **🧪 Worked Example — Fitting house prices with different polynomial degrees** *(illustrative numbers)*
 
-<div class="page-break"></div>
+
 
 | Model | Train error | Test error | Diagnosis |
 |---|---|---|---|
@@ -6168,7 +6176,7 @@ for d in (1, 3, 9):
 # degree  9: train MSE 0.004   test MSE 0.855
 ```
 
-<div class="page-break"></div>
+
 
 ## Chapter 6: Neural Networks
 
@@ -6217,7 +6225,7 @@ Sigmoid output:  σ(0.5) = 1/(1 + e^−0.5) ≈ 0.622
 ReLU output:     max(0, 0.5) = 0.5
 ```
 
-<div class="page-break"></div>
+
 
 **A neuron that acts like a logic AND gate** (step activation: output 1 if z > 0): w = (1, 1), b = −1.5.
 ```
@@ -6271,7 +6279,7 @@ flowchart LR
 
 Input x = (1, 2). Hidden: h₁ = ReLU(1·x₁ − 1·x₂), h₂ = ReLU(0.5·x₁ + 1·x₂). Output ŷ = 2·h₁ + 1·h₂. True y = 3.
 
-<div class="page-break"></div>
+
 
 ```
 Forward:  h₁ = ReLU(1 − 2) = ReLU(−1) = 0      h₂ = ReLU(0.5 + 2) = 2.5      ŷ = 2×0 + 1×2.5 = 2.5
@@ -6332,7 +6340,7 @@ $$
 \mathrm{softmax}(z_i) = \frac{e^{z_i}}{\sum_j e^{z_j}}
 $$
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — Same inputs through each activation**
 
@@ -6364,6 +6372,8 @@ print((e / e.sum()).round(4))                  # softmax: sums to 1
 # [0.0159 0.1173 0.8668]
 ```
 
+
+
 <div class="page-break"></div>
 
 # PART 8: ARTIFICIAL INTELLIGENCE
@@ -6389,7 +6399,7 @@ flowchart TD
 
 **Idea:** Start from initial state, expand neighbors, track frontier of unexplored nodes.
 
-<div class="page-break"></div>
+
 
 **📐 Math notation**
 
@@ -6443,7 +6453,7 @@ Level 3: ...
 Explore each level completely before next level.
 ```
 
-<div class="page-break"></div>
+
 
 **Properties:**
 - Complete: Always finds solution if one exists
@@ -6494,7 +6504,7 @@ Always expand node with smallest g(n).
 
 **🗺️ Diagram: the weighted map used for UCS, Greedy and A***
 
-<div class="page-break"></div>
+
 
 ```mermaid
 flowchart LR
@@ -6548,7 +6558,7 @@ Greedy only looks at "how close does it look?" and ignores the cost already paid
 
 **Strategy:** Balance actual cost and estimated cost.
 
-<div class="page-break"></div>
+
 
 **How it works:**
 ```
@@ -6604,7 +6614,7 @@ Pop G (f=7):  goal!  Path S → B → G, cost 7  ✓ optimal
 ```
 **Admissibility check:** true remaining costs are A→G = 10, B→G = 2. h(A) = 1 ≤ 10 ✓, h(B) = 2 ≤ 2 ✓ → admissible.
 
-<div class="page-break"></div>
+
 
 **What if h overestimates?** Set h(B) = 20 (true cost is only 2). Then f(B) = 5 + 20 = 25. After expanding A, the frontier is B (25) and G (11) → G gets popped first → A* returns the **cost-11** path. Wrong! That's why the heuristic must **never overestimate**.
 
@@ -6654,7 +6664,7 @@ F | F |  F  |  F  |  T  |
 P→Q is false only when P is true and Q is false.
 ```
 
-<div class="page-break"></div>
+
 
 **📐 Math notation**
 
@@ -6685,7 +6695,7 @@ R = rains, U = have umbrella, W = get wet → **(R ∧ ¬U) → W**.
 **Counting rows:** n variables → 2ⁿ rows in a truth table (3 variables → 8).
 **Tautology** = always true (P ∨ ¬P). **Contradiction** = always false (P ∧ ¬P).
 
-<div class="page-break"></div>
+
 
 **💻 In code: truth table and validity check**
 
@@ -6750,7 +6760,7 @@ From (1) and (3), Modus Ponens → Q
 From (2) and Q,   Modus Ponens → R    ✓
 ```
 
-<div class="page-break"></div>
+
 
 | Valid | Invalid (fallacy) |
 |---|---|
@@ -6770,7 +6780,7 @@ $$
 \text{sound} = \text{valid} \ \land\ \text{all premises true}
 $$
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: valid, sound, or neither**
 
@@ -6783,7 +6793,7 @@ flowchart TD
     B -->|"no"| U["Valid but UNSOUND"]
 ```
 
-<div class="page-break"></div>
+
 
 **🧪 Worked Example — Four arguments**
 
@@ -6830,7 +6840,7 @@ P(X_1, \dots, X_n) = \prod_{i=1}^{n} P\big(X_i \mid \mathrm{Parents}(X_i)\big)
 \end{gathered}
 $$
 
-<div class="page-break"></div>
+
 
 **🗺️ Diagram: the Rain and Sprinkler network**
 
@@ -6876,7 +6886,7 @@ print(round(total, 4))
 2. Condition on evidence (set those variables)
 3. Eliminate hidden variables by summing them out
 
-<div class="page-break"></div>
+
 
 **Example:**
 ```
@@ -6938,7 +6948,7 @@ For p=0.5, N=1000: SE ≈ 0.016 (1.6% error)
 Rare events (p=0.01) have larger relative error!
 ```
 
-<div class="page-break"></div>
+
 
 **📐 Math notation**
 
@@ -6971,13 +6981,15 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 **How many samples for a given accuracy?** SE = √(p(1−p)/N). For p = 0.5 and SE = 0.01 → N = 0.25/0.01² = **2,500** samples. For N = 10,000, SE = 0.005.
 **Weakness:** if the evidence is rare (say 1 in 100 samples match), you throw away 99% of the work; that's why smarter methods (likelihood weighting) exist.
 
+
+
 <div class="page-break"></div>
 
 # APPENDIX: FORMULAS & QUICK REFERENCE
 
 > Every formula below now comes with a **10-second example**. Cover the last column, try the example yourself, then check.
 
-<div class="page-break"></div>
+
 
 ## Probability and Statistics
 
@@ -7002,7 +7014,7 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 | t = (x̄ − μ₀) / (s/√n), df = n − 1 | T-test | (52 − 50)/1.414 = **1.41** |
 | χ² = Σ (O − E)² / E | Chi-squared | (8²/50) + (8²/50) = **2.56** |
 
-<div class="page-break"></div>
+
 
 ## Distributions
 
@@ -7030,7 +7042,7 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 | Least squares | β = (XᵀX)⁻¹Xᵀy | Points (1,1), (2,2), (3,2) → y = **0.667 + 0.5x** |
 | SVD energy | σᵢ² / Σσⱼ² | σ = [10,3,1] → 100/110 = **90.9%** |
 
-<div class="page-break"></div>
+
 
 ## Calculus
 
@@ -7059,7 +7071,7 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 | Dijkstra | O((V + E) log V), no negative edges | A→C→D = 2 + 1 = **3** beats A→B→D = **4** |
 | A* | f = g + h, h admissible | S→B→G: g = 4 + 2 = **6** |
 
-<div class="page-break"></div>
+
 
 ## Databases
 
@@ -7074,7 +7086,7 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 | B-tree lookup | Levels = log_fanout(n) | 100 keys per node, 10⁶ keys → **3 levels** |
 | ACID | Atomic, Consistent, Isolated, Durable | Bank transfer: all or nothing |
 
-<div class="page-break"></div>
+
 
 ## Machine Learning
 
@@ -7093,7 +7105,7 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 | Neural-network parameters | Σ (inputs × outputs + outputs) per layer | 2 → 3 → 1 → **13** |
 | PCA variance explained | λᵢ / Σλⱼ | λ = 3, 1 → **75%** |
 
-<div class="page-break"></div>
+
 
 ## Artificial Intelligence
 
@@ -7107,6 +7119,8 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 | Modus ponens / tollens | P→Q, P ⊢ Q · P→Q, ¬Q ⊢ ¬P | Rain → wet; not wet → **no rain** |
 | Bayes-net joint | Π P(Xᵢ \| parents) | 4 binary variables → **9** numbers instead of 15 |
 | Sampling error | SE = √(p(1−p)/N) | p = 0.5, N = 1000 → **0.016** |
+
+
 
 <div class="page-break"></div>
 
@@ -7149,7 +7163,7 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 - [ ] Design schemas in 3NF
 - [ ] Explain B-tree indexes
 
-<div class="page-break"></div>
+
 
 ### Machine Learning
 - [ ] Explain all algorithms (linear regression, logistic regression, decision trees, SVM, kNN, k-means, PCA)
@@ -7161,6 +7175,8 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 - [ ] Compare search algorithms (BFS, DFS, A*)
 - [ ] Test logical validity
 - [ ] Use Bayes theorem for uncertainty
+
+
 
 <div class="page-break"></div>
 
@@ -7202,7 +7218,7 @@ Estimate: P(Rain | Wet) ≈ 200/280 ≈ 0.71
 - AI: 15 minutes
 - Review: 5 minutes
 
-<div class="page-break"></div>
+
 
 **Question-attempt strategy:**
 1. **Pass 1 (20 min):** Easy questions you're certain of
