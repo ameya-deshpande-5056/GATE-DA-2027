@@ -124,8 +124,18 @@ async function renderDocument(page, filePath) {
   await page.selectOption("#preview-theme", "paper");
   await page.locator("#code-wrap").setChecked(true);
   await page.locator("#dark-palette").setChecked(false);
-  await page.locator("#doc-title").fill(title);
-  await page.locator("#editor").fill(renderMarkdown);
+  await page.locator("#doc-title").evaluate((element, value) => {
+    element.value = value;
+    element.dispatchEvent(new Event("input", { bubbles: true }));
+  }, title);
+  await page.locator("#editor").evaluate((element, value) => {
+    element.value = value;
+    element.dispatchEvent(new Event("input", { bubbles: true }));
+  }, renderMarkdown);
+  const editorLength = await page.locator("#editor").evaluate((element) => element.value.length);
+  if (editorLength !== renderMarkdown.length) {
+    throw new Error("Markdown input was truncated for " + filePath + ": expected " + renderMarkdown.length + " characters, got " + editorLength);
+  }
 
   await page.evaluate(async () => {
     if (typeof window.render === "function") await window.render();
@@ -151,6 +161,7 @@ async function renderDocument(page, filePath) {
     throw new Error(filePath + " contains " + renderingErrors + " Mermaid rendering error(s):\n" + details.join("\n"));
   }
 
+  await page.addStyleTag({ content: "#preview { height: auto !important; max-height: none !important; overflow: visible !important; }" });
   await page.emulateMedia({ media: "print" });
   await page.pdf({
     path: outputPath,
